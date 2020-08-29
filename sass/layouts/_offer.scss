@@ -1,14 +1,6 @@
 .offers {
   display: flex;
 
-  &-item:not(:last-child) {
-    margin-right: 30px;
-  }
-
-  &-item {
-    position: relative;
-  }
-
   .text-white {
     position: absolute;
     right: 0;
@@ -17,7 +9,7 @@
     margin: 0px;
     padding: 27px;
 
-    color: &primary-white-color;
+    color: $primary-white-color;
     background: rgba(47, 48, 58, 0.8);
 
     font-weight: 700;
@@ -31,7 +23,15 @@
 
   .text-white:hover,
   .text-white:focus {
-    color: &accent-color;
+    color: $accent-color;
+  }
+}
+
+.offers-item {
+  position: relative;
+
+  &:not(:last-child) {
+    margin-right: 30px;
   }
 }
 

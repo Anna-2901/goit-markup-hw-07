@@ -4,14 +4,13 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Студия</title>
-		<link
+		<!--<link
 			href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
 			rel="stylesheet"
-		/>
+		/>-->
 		<link href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.6.0/modern-normalize.min.css" />
 		<link rel="stylesheet" href="./css/main.min.css" />
-		<!--<link rel="stylesheet" href="./css/normalize.css" />
-		<link rel="stylesheet" href="./css/styles.css" /> -->
+		
 	</head>
 	<body>
 		<!--Шапка сайта-->
@@ -134,7 +133,7 @@
 						<li class="team-item">
 							<img src="./images/jpg1/igor.jpg" alt="Дизайнер" width="270" height="260" />
 							<h3 class="team">Игорь Демьяненко</h3>
-							<p class="profession" lang="en">Product Designer</p>
+							<p class="team-profession" lang="en">Product Designer</p>
 							<ul class="social-list list">
 								<li class="social-item">
 									<a
@@ -194,7 +193,7 @@
 						<li class="team-item">
 							<img src="./images/jpg1/olga.jpg" alt="Разработчик" width="270" height="260" />
 							<h3 class="team">Ольга Репина</h3>
-							<p class="profession" lang="en">Frontend Developer</p>
+							<p class="team-profession" lang="en">Frontend Developer</p>
 							<ul class="social-list list">
 								<li class="social-item">
 									<a
@@ -254,7 +253,7 @@
 						<li class="team-item">
 							<img src="./images/jpg1/nikolay.jpg" alt="Маркетолог" width="270" height="260" />
 							<h3 class="team">Николай Тарасов</h3>
-							<p class="profession" lang="en">Marketing</p>
+							<p class="team-profession" lang="en">Marketing</p>
 							<ul class="social-list list">
 								<li class="social-item">
 									<a
@@ -314,7 +313,7 @@
 						<li class="team-item">
 							<img src="./images/jpg1/mihail.jpg" alt="UI Дизайнер" width="270" height="260" />
 							<h3 class="team">Михаил Ермаков</h3>
-							<p class="profession" lang="en">UI Designer</p>
+							<p class="team-profession" lang="en">UI Designer</p>
 							<ul class="social-list list">
 								<li class="social-item">
 									<a
@@ -429,7 +428,7 @@
 		<!--Футер-->
 		<footer class="footer">
 			<div class="container footer-container">
-				<div class="footer-contacts">
+				<div>
 					<a href="index.html" class="logo-footer logo">
 						<span>Web</span>
 						Studio
@@ -444,7 +443,7 @@
 				</div>
 
 				<!--Ссылки на соцсети-->
-				<div class="footer-contacts">
+				<div>
 					<b class="networks">Присоединяйтесь</b>
 					<ul class="social-footer list">
 						<li class="social-item-footer">
@@ -497,12 +496,14 @@
 						</li>
 					</ul>
 				</div>
-				<div class="footer-contacts e-mail">
+				<form>
+				<div>
 					<b class="networks">Подпишитесь на рассылку</b>
 					<br>
 					<input class="email-text" type="email" name="email"  placeholder="E-mail"/>
 					<button type="submit" class="button-sign">Подписаться</button>
 				</div>
+				</form>
 				</footer>
 	
 				<!--Модальное окно-->
