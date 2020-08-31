@@ -74,7 +74,7 @@ html {
 body {
   color: #757575;
   background-color: #ffffff;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-style: normal;
 }
 
@@ -697,7 +697,7 @@ img {
   display: inline-block;
   margin-bottom: 20px;
   color: #ffffff;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
